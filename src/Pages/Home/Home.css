@@ -1,0 +1,116 @@
+/* Hero Section CSS Start */
+
+.hero-wrapper {
+  padding: 160px 0 80px;
+}
+
+.hero-content h2 {
+  font-size: 56px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.hero-content h2 span {
+  font-weight: 700;
+  color: #c300b9;
+}
+
+.hero-content p {
+  font-size: 20px;
+  color: #1a1a1a;
+  padding: 10px 0 30px;
+}
+
+.hero-content a,
+.see-all-btn a,
+.about-content a {
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  background: #c300b9;
+  border: 1px solid #c300b9;
+  color: #ffffff;
+  padding: 15px 40px;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.hero-content a:hover,
+.see-all-btn a:hover,
+.about-content a:hover {
+  background: transparent;
+  color: #c300b9;
+  border: 1px solid #c300b9;
+}
+
+.see-all-btn a {
+  padding: 12px 40px;
+}
+
+/* Hero Section CSS End */
+
+@media (max-width: 991px) {
+  .hero-content h2 {
+    font-size: 36px;
+  }
+}
+
+/* About Section */
+
+.about {
+  padding-bottom: 80px;
+}
+
+.about h2,
+.portfolio h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.about p,
+.portfolio p {
+  font-size: 18px;
+  color: #1a1a1a;
+}
+
+.about-content h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0;
+}
+
+.about-content p {
+  color: #1a1a1a;
+  padding: 10px 0 30px;
+}
+
+.about-content h6 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #c300b9;
+}
+
+.porfolio-items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .hero-content h2 {
+    font-size: 36px;
+  }
+
+  .porfolio-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .porfolio-items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

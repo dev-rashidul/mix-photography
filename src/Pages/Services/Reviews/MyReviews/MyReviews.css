@@ -1,0 +1,17 @@
+.my-reviews {
+  max-width: 800px;
+  margin: auto;
+  padding: 180px 10px 80px;
+}
+
+.my-reviews h3 {
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.my-reviews h6 {
+  font-size: 20px;
+  text-align: center;
+  color: #ff0000;
+}
