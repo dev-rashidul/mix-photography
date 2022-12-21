@@ -59,6 +59,11 @@
 input[type="submit"] {
   background: #c300b9;
   margin-left: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background: #fd0af1;
 }
 
 .newsletter-form ::placeholder {

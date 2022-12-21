@@ -54,20 +54,28 @@
   color: #c300b9 !important;
 }
 
-.login,
-.login:hover {
+.login {
   background: #c300b9;
   color: #ffffff !important;
   padding: 8px 20px;
   border-radius: 5px;
+  transition: all 0.3s ease-in-out;
 }
 
-.logout,
-.logout:hover {
+.login:hover {
+  background: #fd0af1;
+}
+
+.logout {
   background: #ff0000;
   color: #ffffff !important;
   padding: 8px 20px;
   border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.logout:hover {
+  background: #ff1616;
 }
 
 @media (max-width: 991px) {

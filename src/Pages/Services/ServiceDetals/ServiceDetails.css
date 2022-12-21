@@ -69,6 +69,11 @@
   color: #ffffff;
   padding: 8px;
   border-radius: 0 0 5px 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.service-btn a:hover {
+  background: #fd0af1;
 }
 
 /* Review */
@@ -84,6 +89,11 @@
   background: #c300b9;
   border: #c300b9;
   padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.add-review [type="submit"]:hover {
+  background: #fd0af1;
 }
 
 .add-review p {
